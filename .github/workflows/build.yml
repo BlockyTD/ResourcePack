@@ -13,7 +13,7 @@ jobs:
         uses: ComunidadAylas/PackSquash-action@v3
         with:
           path: pack
-          name: Optimized Resource Pack
+          artifact_name: Optimized Resource Pack
       - name: Download pack artifact
         uses: actions/download-artifact@v3
         with:
