@@ -7,8 +7,8 @@ jobs:
     steps:
       - name: Checkout reposetory
         uses: actions/checkout@v3
-      #  with:
-      #    fetch-depth: 0 # A non-shallow repository clone is required
+        with:
+          fetch-depth: 0 # A non-shallow repository clone is required
       - name: Build with PackSquash
         uses: ComunidadAylas/PackSquash-action@v3
         with:
