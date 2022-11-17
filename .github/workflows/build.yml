@@ -1,0 +1,25 @@
+name: Build resource pack
+on: [push]
+jobs:
+  build:
+    name: Build resource pack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout reposetory
+        uses: actions/checkout@v3
+      #  with:
+      #    fetch-depth: 0 # A non-shallow repository clone is required
+      - name: Build with PackSquash
+        uses: ComunidadAylas/PackSquash-action@v3
+        with:
+          path: pack
+          name: Optimized Resource Pack
+      - name: Download pack artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: Optimized Resource Pack
+      - name: Tag and create release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: build-${{ github.run_number }}
+          files: pack.zip
