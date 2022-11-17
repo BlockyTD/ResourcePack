@@ -5,7 +5,7 @@ jobs:
     name: Build resource pack
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout reposetory
+      - name: Checkout repository
         uses: actions/checkout@v3
         with:
           fetch-depth: 0 # A non-shallow repository clone is required
