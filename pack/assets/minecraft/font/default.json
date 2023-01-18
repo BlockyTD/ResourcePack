@@ -1,0 +1,39 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/invisibleitem.png",
+            "ascent": -2000,
+            "height": -10,
+            "chars": ["\uE000"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/play.png",
+            "ascent": 13,
+            "height": 222,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/profile.png",
+            "ascent": 13,
+            "height": 222,
+            "chars": ["\uE002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/cosmetics.png",
+            "ascent": 13,
+            "height": 222,
+            "chars": ["\uE003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:gui/tower.png",
+            "ascent": 13,
+            "height": 222,
+            "chars": ["\uE004"]
+        }
+    ]
+}

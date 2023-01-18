@@ -1,0 +1,11 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "item/paper"
+	},
+	"overrides": [
+		{ "predicate": { "custom_model_data": 1 }, "model": "gui/invisibleitem" },
+		{ "predicate": { "custom_model_data": 2 }, "model": "gui/help" },
+		{ "predicate": { "custom_model_data": 3 }, "model": "gui/close" }
+	]
+}
