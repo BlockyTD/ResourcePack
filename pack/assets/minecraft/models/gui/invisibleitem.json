@@ -2,8 +2,8 @@
 	"credit": "Made by AstroSquared",
 	"parent": "item/handheld",
 	"textures": {
-		"0": "gui/invisibleitem",
-		"particle": "gui/invisibleitem"
+		"0": "gui/items/invisibleitem",
+		"particle": "gui/items/invisibleitem"
 	},
 	"elements": [
 		{

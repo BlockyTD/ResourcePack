@@ -1,6 +1,6 @@
 {
     "parent": "item/handheld",
     "textures": {
-        "layer0": "gui/close"
+        "layer0": "gui/items/close"
     }
 }

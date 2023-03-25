@@ -2,38 +2,27 @@
     "providers": [
         {
             "type": "bitmap",
-            "file": "minecraft:gui/invisibleitem.png",
+            "file": "minecraft:gui/items/invisibleitem.png",
             "ascent": -2000,
             "height": -10,
             "chars": ["\uE000"]
         },
+
+
+
+
+
+
+
+
+
+
         {
             "type": "bitmap",
-            "file": "minecraft:gui/play.png",
+            "file": "minecraft:gui/menus/play.png",
             "ascent": 13,
-            "height": 222,
-            "chars": ["\uE001"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:gui/profile.png",
-            "ascent": 13,
-            "height": 222,
-            "chars": ["\uE002"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:gui/cosmetics.png",
-            "ascent": 13,
-            "height": 222,
-            "chars": ["\uE003"]
-        },
-        {
-            "type": "bitmap",
-            "file": "minecraft:gui/tower.png",
-            "ascent": 13,
-            "height": 222,
-            "chars": ["\uE004"]
+            "height": 256,
+            "chars": ["\uE101"]
         },
 
 
@@ -66,11 +55,6 @@
             "height": 9,
             "chars": ["\uE113"]
         },
-
-
-
-
-
         {
             "type": "bitmap",
             "file": "minecraft:hp/hp-bar-mid-full.png",
@@ -92,11 +76,6 @@
             "height": 9,
             "chars": ["\uE123"]
         },
-
-
-
-
-
         {
             "type": "bitmap",
             "file": "minecraft:hp/hp-bar-end-full.png",
