@@ -4,7 +4,7 @@
             "type": "bitmap",
             "file": "minecraft:gui/items/invisibleitem.png",
             "ascent": -2000,
-            "height": -10,
+            "height": -12,
             "chars": ["\uE000"]
         },
 
